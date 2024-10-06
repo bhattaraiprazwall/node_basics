@@ -1,5 +1,11 @@
-function sayHello(name)
+// function sayHello(name)
+// {
+//     console.log(`Hello${name}`);
+// }
+// module.exports=sayHello;
+
+function moduleExporting()
 {
-    console.log(`Hello${name}`);
+    console.log("Hello from external module.....");
 }
-module.exports=sayHello
+module.exports=moduleExporting;
